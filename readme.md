@@ -103,10 +103,10 @@ Setja skal upp verkefni á Netlify með því að hlaða upp skrám með „manu
 
 - 20% – Merkingarfræðileg element og síður án villna frá HTML validator og aXe validator.
 - 10% – Haus, valmynd og fótur eftir forskrift.
-- 10% – Forsíða uppsett eftir forskrift.
-- 30% – Spilasíða uppsett eftir forskrift.
+- 15% – Forsíða uppsett eftir forskrift.
+- 20% – Spilasíða uppsett eftir forskrift.
 - 15% – Viðburðasíða uppsett eftir forskrift.
-- 15% – Skráning á viðburði síða uppsett eftir forskrift.
+- 20% – Skráning á viðburði síða uppsett eftir forskrift.
 
 ## Sett fyrir
 
@@ -133,4 +133,11 @@ Sett verða fyrir tíu minni verkefni þar sem átta bestu gilda 5% hvert, samta
 
 Sett verða fyrir tvö hópverkefni þar sem hvort um sig gildir 10%, samtals 20% af lokaeinkunn.
 
-> Útgáfa 0.1
+> Útgáfa 0.2
+
+---
+
+| Útgáfa | Lýsing                                                                                                        |
+| ------ | ------------------------------------------------------------------------------------------------------------- |
+| 0.1    | Fyrsta útgáfa                                                                                                 |
+| 0.2    | Breyta mati milli síðna; Bæta við reitum í form; laga smávægilegar villur í efni; bæta við `sharing.jpg` mynd |
