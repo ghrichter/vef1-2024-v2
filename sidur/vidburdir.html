@@ -9,43 +9,38 @@
       }
     </style>
     <meta charset="utf-8" />
-    <title>Spilabúðin</title>
+    <title>Spilabúðin - væntanlegir viðburðir</title>
     <meta
-      description="Hér getur þú séð alla væntanlega viðburði Spilabúðinnar"
+      name="description"
+      content="Hér getur þú séð alla væntanlega viðburði Spilabúðinnar"
     />
-    <meta og:title="Spilabúðin - Viðburðir" />
+    <meta property="og:title" content="Spilabúðin - Viðburðir" />
     <meta
-      og:description="Hér getur þú séð alla væntanlega viðburði Spilabúðinnar"
+      property="og:description"
+      content="Hér getur þú séð alla væntanlega viðburði Spilabúðinnar"
     />
-    <meta og:image="myndir/sharing.jpg" />
+    <meta property="og:image" content="../myndir/sharing.jpg" />
   </head>
 
   <body>
     <header role="banner">
       <h1>Viðburðir</h1>
+      <a href="#adalefni">Beint í efni</a>
     </header>
     <nav role="navigation">
       <menu>
-        <li>-<a href="index.html">Forsíða Spilabúðarinnar</a></li>
-        <li>-<a href="sidur/spil.html">Spil</a></li>
+        <li>-<a href="../index.html">Forsíða Spilabúðarinnar</a></li>
+        <li>-<a href="spil.html">Spil</a></li>
         <li>
-          <strong
-            >-<a href="sidur/vidburdir.html">Viðburðir</a></strong
-          >
+          <strong>-<a href="vidburdir.html">Viðburðir</a></strong>
         </li>
-        <li>
-          -<a href="sidur/skraning.html">Skráning á viðburði</a>
-        </li>
+        <li>-<a href="skraning.html">Skráning á viðburði</a></li>
       </menu>
     </nav>
 
-    <main role="main">
+    <main role="main" id="adalefni">
       <h2>Púslukvöld</h2>
-      <img
-        src="myndir/puzzle.jpg"
-        alt="Mynd af púsli"
-        width="480"
-      />
+      <img src="../myndir/puzzle.jpg" alt="Mynd af púsli" width="480" />
       <p>
         Komdu á púslukvöld í spilabúðina. Við bjóðum upp á púsluspil og góða
         stemningu. Byrjum snemma og endum seint. Allt frá 50 bitum upp í 5000
@@ -56,7 +51,7 @@
       </p>
       <h2>Ticket to Ride</h2>
       <img
-        src="myndir/ticket-to-ride.jpg"
+        src="../myndir/ticket-to-ride.jpg"
         alt="Mynd af borðspilinu Ticket to Ride"
         width="480"
       />
@@ -65,11 +60,9 @@
         Spilum allan daginn, bókaðu klukkustund eða lengur.
       </p>
       <p>
-        <a href="sidur/skraning.html"
-          >Skrá mig á Ticket to Ride</a
-        >
+        <a href="sidur/skraning.html">Skrá mig á Ticket to Ride</a>
       </p>
-      <p><a href="index.html">Aftur á forsíðu</a></p>
+      <p><a href="../index.html">Aftur á forsíðu</a></p>
     </main>
 
     <footer role="contentinfo">
