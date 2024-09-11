@@ -40,9 +40,81 @@
     </nav>
 
     <main role="main" id="adalefni">
-      <p></p>
+      <h3>Viðburður</h3>
+      <form>
+        <label for="eventchoice">Veldu viðburð</label><br>
+        <input type="radio" id="puslukvold" name="eventchoice" value="puslukvold">
+        <label for="puslukvold">Púslukvöld</label><br>
+        <input type="radio" id="ticket2ride" name="eventchoice" value="ticket2ride">
+        <label for="ticket2ride">Ticket to Ride</label><br>
+        <label for="date">Hvaða dag?</label>
+        <input type="date" name="date" id="date"><br>
+        <label for="when">Klukkan hvað? </label>
+        <select name="when" id="when">
+          <option value="10-11">10-11</option>
+          <option value="11-12">11-12</option>
+          <option value="12-13">12-13</option>
+          <option value="13-14">13-14</option>
+          <option value="14-15">14-15</option>
+          <option value="15-16">15-16</option>
+          <option value="16-17">16-17</option>
+          <option value="17-18">17-18</option>
+          <option value="18-19">18-19</option>
+          <option value="19-20">19-20</option>
+          <option value="20-21">20-21</option>
+          <option value="21-22">21-22</option>
+          <option value="22-23">22-23</option>
+          <option value="23-24">23-24</option>
+        </select><br>
+        <label for="no-people">Hve mörg?</label>
+        <select name="no-people" id="no-people">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+        </select><br>
+        <label for="anythingelse1">Viltu taka eitthvað fram?</label>
+        <input type="text" id="anythingelse1" name="anythingelse1">
+        
+      </form>
+      <h3>Panta mat</h3>
+      <form>
+        <label for="foodchoice">Veldu mat:</label><br>
+        <select name="foodchoice" id="foodchoice">
+          <option value="pizzansoda">Pizzusneið og gos</option>
+          <option value="coffeencake">Kaffi og kaka</option>
+          <option value="nothanks">Engan mat</option>
+        </select><br>
+        <label for="allergy">Ofnæmi?</label><br>
+        <input type="checkbox" id="allergy" name="allergy"><br>
+        <label for="anythingelse2">Annað sem við ættum að vita?</label><br>
+        <input type="text" id="anythingelse2" name="anythingelse2"><br>
+      </form>
+      <h3>Þínar upplýsingar</h3>
+      <form>
+        <label for="name">Nafn</label><br>
+        <input type="text" id="name" name="name" placeholder="Þitt nafn hér" required><br>
+        <label for="email">Netfang</label><br>
+        <input type="text" id="email" name="email" placeholder="example@mail.org" required><br>
+        <label for="phonenr">Símanúmer</label><br>
+        <input type="text" id="phonenr" name="phonenr"
+        placeholder="123-4567"
+        pattern="[0-9]{7}" required><br>
+      </form>
+      <h3>Samþykkja og panta</h3>
+      <form>
+        <label for="t&c">Ég samþykki skilmála Spilabúðarinnar </label>
+        <input type="checkbox" id="t&c" name="t&c" value="t&c"><br>
+        <input type="submit" value="Skrá">
+      </form>
       <p><a href="../index.html">Aftur á forsíðu</a></p>
-    </main>
+    </main> 
 
     <footer role="contentinfo">
       <h2>Opnunartími</h2>
